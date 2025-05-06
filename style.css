@@ -1,11 +1,15 @@
 body {
     background-color: #F5F5F5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .container {
     background-color: #E9E9E9;
     margin: auto;
     width: 600px;
+    box-shadow: 1px 3px 8px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
 }
 
 .header {
@@ -17,4 +21,18 @@ body {
     background-color: #006a6a;
     justify-content: space-around;
     padding: 20px;
+}
+
+.header_title {
+    color: #006F6F;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.header_subtitle {
+    color: #009E9E;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
 }
